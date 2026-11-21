@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.opaquefix",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "FiguraRenderTypesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

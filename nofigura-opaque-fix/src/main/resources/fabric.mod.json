@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nofigura_opaque_fix",
+  "version": "${version}",
+  "name": "NoFigura Opaque Shader Fix",
+  "description": "Fixes the see-through avatar model of NoFigura/Figura when a shader pack (Iris) is active, by rendering translucent avatar parts as cutout.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["nofigura_opaquefix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "figura": "*"
+  },
+  "suggests": {
+    "iris": "*"
+  }
+}
