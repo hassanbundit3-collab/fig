@@ -1,4 +1,5 @@
 package dev.opaquefix;
+import dev.opaquefixutil.ShaderCheck;
 
 import net.minecraft.client.renderer.rendertype.RenderType;
 import net.minecraft.resources.Identifier;
