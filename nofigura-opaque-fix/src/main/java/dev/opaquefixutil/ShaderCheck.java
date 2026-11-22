@@ -1,6 +1,6 @@
 package dev.opaquefix;
 
-import java.lang.reflect.Method;
+package dev.opaquefixutil;
 
 /**
  * ตรวจว่ากำลังใช้เชดเดอร์ (Iris) อยู่ไหม โดยใช้ reflection
